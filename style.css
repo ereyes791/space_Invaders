@@ -1,0 +1,48 @@
+.game{
+
+    background-image: url("img/space.gif");
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: black;
+    height:580px;
+    display: flex;
+}
+
+.spaceShip{
+   position:fixed;
+  transition: left 1s;
+  left: 350px;
+  top:500px;
+  background-image: url("img/space-ship.png");
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.shoot{
+    position:fixed;
+    background-color: red;
+    width: 2px;
+    height: 10px;
+
+}
+.enemy {
+    position: fixed;
+    transition: left 1s;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn.btn-primary.btn-lg.btn-inline {
+    background-color: transparent;
+    border-color: white;
+
+}
+.btn.btn-primary.btn-lg.btn-inline:hover{
+    background-color: white;
+    color:black;
+    transition: 1s;
+
+}
